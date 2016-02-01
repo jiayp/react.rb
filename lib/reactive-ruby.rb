@@ -1,5 +1,4 @@
 if RUBY_ENGINE == 'opal'
-  require 'sources/react.js'
   require 'react/top_level'
   require 'react/observable'
   require 'react/component'
