@@ -2,10 +2,10 @@ module React
   module Component
     module API
       def dom_node
-        if `typeof React.findDOMNode === 'undefined'`
+        if `typeof ReactDOM.findDOMNode === 'undefined'`
           `#{self}.native.getDOMNode`            # v0.12.0
         else
-          `React.findDOMNode(#{self}.native)`    # v0.13.0
+          `ReactDOM.findDOMNode(#{self}.native)`    # v0.13.0
         end
       end
 

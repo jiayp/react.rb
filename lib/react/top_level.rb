@@ -63,7 +63,7 @@ module React
 
   def self.render(element, container)
     container = `container.$$class ? container[0] : container`
-    component = Native(`React.render(#{element.to_n}, container, function(){#{yield if block_given?}})`)
+    component = Native(`ReactDOM.render(#{element.to_n}, container, function(){#{yield if block_given?}})`)
     component.class.include(React::Component::API)
     component
   end
