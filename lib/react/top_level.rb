@@ -12,7 +12,7 @@ module React
                 small source span strong style sub summary sup table tbody td textarea tfoot th
                 thead time title tr track u ul var video wbr) +
              # The SVG Tags
-             %w(circle clipPath defs ellipse g line linearGradient mask path pattern polygon polyline
+             %w(circle clipPath defs ellipse g line linearGradient mask marker path pattern polygon polyline
                 radialGradient rect stop svg text tspan)
   ATTRIBUTES = %w(accept acceptCharset accessKey action allowFullScreen allowTransparency alt
                 async autoComplete autoPlay cellPadding cellSpacing charSet checked classID
