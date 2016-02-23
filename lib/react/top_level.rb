@@ -27,11 +27,11 @@ module React
                 tabIndex target title type useMap value width wmode dangerouslySetInnerHTML) +
                 #SVG ATTRIBUTES
                 %w(clipPath cx cy d dx dy fill fillOpacity fontFamily
-                fontSize fx fy gradientTransform gradientUnits markerEnd
+                fontSize fx fy gradientTransform gradientUnits markerEnd markerHeight markerWidth
                 markerMid markerStart offset opacity patternContentUnits
-                patternUnits points preserveAspectRatio r rx ry spreadMethod
+                patternUnits points preserveAspectRatio r refX refY rx ry spreadMethod
                 stopColor stopOpacity stroke  strokeDasharray strokeLinecap
-                strokeOpacity strokeWidth textAnchor transform version
+                strokeOpacity strokeWidth textAnchor transform orient version
                 viewBox x1 x2 x xlinkActuate xlinkArcrole xlinkHref xlinkRole
                 xlinkShow xlinkTitle xlinkType xmlBase xmlLang xmlSpace y1 y2 y)
 
